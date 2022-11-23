@@ -1,0 +1,25 @@
+https://accounts.google.com/o/oauth2/auth
+?client_id=402850366207-510t03bsvqtp60ehk6toomhgpntl2d88.apps.googleusercontent.com
+&redirect_uri=http://localhost
+&scope=https://www.googleapis.com/auth/mybusiness
+&response_type=code
+&approval_prompt=force
+&access_type=offline
+
+
+curl -d client_id=465307590611-mum36vmrae32krvgkku24tttcthsj5vd.apps.googleusercontent.com -d client_secret=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 -d redirect_uri=http://localhost  -d grant_type=authorization_code   -d code=4/0AfgeXvtEqKNpWLATZ8plGtP8iGwPe-0O2XGHgMg6j5MR23TEIqws_hEYcN7uojB7-zQkmg  https://accounts.google.com/o/oauth2/token
+
+
+http://localhost/?code=4/0AfgeXvtEqKNpWLATZ8plGtP8iGwPe-0O2XGHgMg6j5MR23TEIqws_hEYcN7uojB7-zQkmg&scope=https://www.googleapis.com/auth/drive
+
+
+%%final result
+
+
+{
+  "access_token": "ya29.a0AeTM1ictyMFAMrcI62d4yUQkWX_jXGPaziSlD3ecNV8O4eiT-wgxmbxQILQgJ3PbjsL2o7K1PalqELwv4y4nh8k5WD_2yA_olFdGAZ093UVxz8waQS1Sf-d9hsaBDYpo8Vq0rnMnw43-29XAazbChBhGbmc6aCgYKAU4SARASFQHWtWOmq2-inVtfOGck0lA2v_5HVw0163",
+  "expires_in": 3599,
+  "refresh_token": "1//0ePYZkBaR0y9CCgYIARAAGA4SNwF-L9IrLpzhdAC339hiNX16ojlMmhP3jTFcbSnx8n7RXuYT9e8v4ZSHo2eCnm8az5YJPDlkL2w",
+  "scope": "https://www.googleapis.com/auth/drive",
+  "token_type": "Bearer"
+}
